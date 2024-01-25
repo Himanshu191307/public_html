@@ -1,3 +1,4 @@
+
 .aboutbox p a*,
 figure {
   margin: 0;
@@ -1997,10 +1998,11 @@ div.pp_default .pp_nav .currentTextHolder {
 
 .happeningbox img {
   width: 100%;
+  height: 200px;
 }
 
 .happeningbox .boxcontent {
-  padding: 25px;
+  padding: 20px 0px 0px 0px;
 }
 
 .happeningbox h2 {
@@ -2355,3 +2357,76 @@ div.pp_default .pp_nav .currentTextHolder {
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
+
+.homebanner{
+  background: url(../images/news-banner.jpg.png) center center no-repeat;
+  background-size: cover;
+
+}
+.content-next{
+ 
+}
+.img-1{
+  border-top: 2px solid aqua;
+  margin-bottom: 20px;
+}
+.img-1 h6{
+  margin-top:30px;
+}
+.img-2{
+  border-top: 2px solid aqua;
+  margin-bottom: 20px;
+}
+.img-2 h6{
+  margin-top:30px;
+}
+
+.img-3{
+  border-top: 2px solid aqua;
+  margin-bottom: 20px;
+}
+.img-3 h6{
+  margin-top:30px;
+}
+.happeningbox {
+    background: #d9d9d938;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    height: 100%;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+.graypatch {
+    background: white!important;
+}
+.activee a{
+  border:1px solid white;
+  padding:10px;
+}
+
+.down-list a{
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+/* Style the list items to display horizontally */
+li {
+  display: inline-block;
+  margin-right: 30px; /* Adjust spacing between list items as needed */
+  height: 80px;
+  font-size: 18px;
+  color: #fff;
+}
+.button{
+  background-color: #fff;
+  color: #000000;
+}
+
